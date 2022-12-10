@@ -4,10 +4,10 @@
 
 ---
 
-<i>A curated list of awesome Github Profile READMEs</i>
+<i>Bienvenue sur mon portfolio Github</i>
 
 
-### Contents:
+### Contenue:
 - Categories
   - [Accueil 🏡](#Accueil)
   - [À propos 🧑‍💼](#à-propos-de-moi)
