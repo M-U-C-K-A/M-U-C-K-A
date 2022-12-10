@@ -6,13 +6,14 @@
 
 <i>A curated list of awesome Github Profile READMEs</i>
 
+
 ### Contents:
-  - [Categories](#Hugo-Delacour)
-      - [Accueil 🤖](#Accueil)
-      - [A propos 🚀](#game-mode-)
-      - [Mes projets 👨🏽‍💻](#code-mode-)
-      - [Carriere 💫](#dynamic-realtime-)
-      - [Compétence 💫](#dynamic-realtime-)
+- Categories
+  - [Accueil 🏡](#Accueil)
+  - [À propos 🧑‍💼](#à-propos-de-moi)
+  - [Mes projets 💻](#mes-projets)
+  - [Carriere 📈](#ma-carrière)
+  - [Compétence 🧠](#mes-compétences)
 
 ### Accueil
 
