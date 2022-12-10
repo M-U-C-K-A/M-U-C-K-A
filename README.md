@@ -15,12 +15,12 @@
   - [Carriere 📈](#ma-carrière)
   - [Compétence 🧠](#mes-compétences)
 
-### Accueil
+## Accueil
 
 Je suis un développeur UI/UX et Web junior, passionné par la création d'expériences utilisateur exceptionnelles et d'applications web performantes. 
 J'ai travaillé sur de nombreux projets pour des clients diversifiés, en utilisant les dernières technologies et en m'adaptant aux besoins et aux objectifs de chaque projet.
 
-### À propos de moi
+## À propos de moi
 
 Je suis développeur UI/UX et Web depuis plusieurs années, 
 et j'ai acquis une solide expérience dans la conception et la réalisation de sites Web et d'applications mobiles. 
@@ -36,7 +36,7 @@ Je suis passionné par mon métier, et je suis toujours à la recherche de nouve
 - Optimisation de la performance et de l'expérience utilisateur (UX) des sites Web et des applications mobiles
 - Formation et accompagnement des clients dans l'utilisation des sites Web et des applications mobiles
 
-### Mes projets
+## Mes projets
 
 #### J'ai créé un site pour un électricien, allant de la production à la mise en ligne
 
@@ -48,7 +48,7 @@ tant que développeur web, j'ai créé un tableau de bord en ligne permettant de
 
 ###### https://hugodelacour.xyz/annexe/covid.php
 
-### Ma carrière
+## Ma carrière
 
 #### 2017-2020 : Bac STI2D (sciences et technologies de l'industrie et du développement durable)
 
@@ -67,7 +67,7 @@ tant que développeur web, j'ai créé un tableau de bord en ligne permettant de
 - web development 
 - méthode de management
 
-### Mes compétences
+## Mes compétences
 
 - Langages de programmation : HTML, CSS, JavaScript, PHP, SQL
 - Technologies front-end : React, Javascript, Bootstrap, Tailwind
