@@ -1,77 +1,33 @@
-# Hugo Delacour
+<h1 align="center">Hi 👋, I'm Hugo Delacour</h1>
+<h3 align="center">Un développeur frontend passionné originaire de France</h3>
 
-## UI/UX et Web développeur
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=m-u-c-k-a&label=Profile%20views&color=0e75b6&style=flat" alt="m-u-c-k-a" /> </p>
 
----
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=m-u-c-k-a" alt="m-u-c-k-a" /></a> </p>
 
-<i>Bienvenue sur mon portfolio Github</i>
+<p align="left"> <a href="https://twitter.com/mucka____" target="blank"><img src="https://img.shields.io/twitter/follow/mucka____?logo=twitter&style=for-the-badge" alt="mucka____" /></a> </p>
 
+- 🔭 Je suis actuellement étudiant [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)
 
-### Contenue:
-- Categories
-  - [Accueil 🏡](#Accueil)
-  - [À propos 🧑‍💼](#à-propos-de-moi)
-  - [Mes projets 💻](#mes-projets)
-  - [Carriere 📈](#ma-carrière)
-  - [Compétence 🧠](#mes-compétences)
+- 🌱 J'apprend actuellement **des Framework JS, l'UX design**
 
-## Accueil
+- 👨‍💻 All of my projects are available at [https://hugodelacour.xyz](https://hugodelacour.xyz)
 
-Je suis un développeur UI/UX et Web junior, passionné par la création d'expériences utilisateur exceptionnelles et d'applications web performantes. 
-J'ai travaillé sur de nombreux projets pour des clients diversifiés, en utilisant les dernières technologies et en m'adaptant aux besoins et aux objectifs de chaque projet.
+- 📝 Je suis actif sur discord [𝑀𝑢𝑐𝑘𝑎#2080](𝑀𝑢𝑐𝑘𝑎#2080)
 
-## À propos de moi
+- 📫 Comment me contacter **hugodelacour.pro@gmail.com**
 
-Je suis développeur UI/UX et Web depuis plusieurs années, 
-et j'ai acquis une solide expérience dans la conception et la réalisation de sites Web et d'applications mobiles. 
-J'ai étudié la data science lors de ma premiere années à l'université
-avant de me réorienter et de suivre des cours en développement Web et en design d'interface utilisateur pour approfondir mes connaissances et mes compétences. dans ce dommaine qui me passionne
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://codepen.io/m-u-c-k-a" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="m-u-c-k-a" height="30" width="40" /></a>
+<a href="https://twitter.com/mucka____" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="mucka____" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/hugo-delacour/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hugo-delacour/" height="30" width="40" /></a>
+<a href="https://discord.gg/𝑀𝑢𝑐𝑘𝑎#2080" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="𝑀𝑢𝑐𝑘𝑎#2080" height="30" width="40" /></a>
+</p>
 
-Je suis passionné par mon métier, et je suis toujours à la recherche de nouvelles opportunités pour mettre mes compétences en pratique et apprendre de nouvelles technologies et approches. J'aime travailler en équipe, échanger des idées et des points de vue avec mes collègues, et trouver des solutions créatives aux défis auxquels nous sommes confrontés. Je suis également très attentif aux détails et à la qualité de mon travail, et je m'efforce de livrer des produits qui répondent aux attentes et aux besoins des utilisateurs finaux.
-### Mes services
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://d3js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/d3js/d3js-original.svg" alt="d3js" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://gohugo.io/" target="_blank" rel="noreferrer"> <img src="https://api.iconify.design/logos-hugo.svg" alt="hugo" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://unrealengine.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </p>
 
-- Conception d'interfaces utilisateur (UI) pour sites Web et applications mobiles
-- Développement front-end (HTML, CSS, JavaScript) et back-end (PHP, MySQL) pour sites Web
-- Intégration de contenu et de fonctionnalités (plugins, widgets, etc.) dans des sites Web
-- Optimisation de la performance et de l'expérience utilisateur (UX) des sites Web et des applications mobiles
-- Formation et accompagnement des clients dans l'utilisation des sites Web et des applications mobiles
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=m-u-c-k-a&show_icons=true&locale=en&layout=compact" alt="m-u-c-k-a" /></p>
 
-## Mes projets
-
-#### J'ai créé un site pour un électricien, allant de la production à la mise en ligne
-
-En tant que développeur web, j'ai créé un site web pour un électricien professionnel afin de mettre en avant ses services et de permettre à ses clients de le contacter facilement en ligne. J'ai pris en charge toutes les étapes de la création du site, depuis la conception initiale jusqu'à la réalisation concrète du site (la production), en passant par la sélection des images, la mise en page et la rédaction des textes. J'ai également géré le processus de mise en ligne du site, en veillant à ce qu'il soit hébergé sur un serveur fiable et performant et en le rendant accessible sur internet. Grâce à ce travail, l'électricien a pu disposer d'un site web professionnel et attractif qui lui a permis d'augmenter sa visibilité en ligne et de fidéliser ses clients.
-
-#### Création d'un tableau de bord Covid-19 pour le département de l'Aude
-
-tant que développeur web, j'ai créé un tableau de bord en ligne permettant de suivre en temps réel l'évolution de la situation épidémiologique dans le département de l'Aude. Mon dashboard a pour objectif de fournir aux habitants de l'Aude des informations précises et actualisées sur la pandémie de Covid-19, notamment sur le nombre de cas confirmés, de personnes guéries et de décès dus au virus, ainsi que sur les mesures prises par les autorités pour lutter contre la propagation de la maladie. Grâce à cet outil, les habitants de l'Aude peuvent être informés en temps réel de la situation épidémiologique dans leur département et adapter leur comportement en conséquence
-
-###### https://hugodelacour.xyz/annexe/covid.php
-
-## Ma carrière
-
-#### 2017-2020 : Bac STI2D (sciences et technologies de l'industrie et du développement durable)
-
-- Apprentissage des bases du développement informatique
-- Cours de mathématique et de physique 
-
-#### 2020-2021 : Dut STID (Statistique et Informatique Décisionnelle)
-
-- statistique
-- Probabilité
-- Statistique Inférentiel
-
-#### 2021-2023 : But MMI (Métiers du Multimédia et de l'Internet)
-
-- Ux/Ui developpement
-- web development 
-- méthode de management
-
-## Mes compétences
-
-- Langages de programmation : HTML, CSS, JavaScript, PHP, SQL
-- Technologies front-end : React, Javascript, Bootstrap, Tailwind
-- Technologies back-end : PHP
-- CMS et frameworks : WordPress, Drupal, Joomla
-- Outils de développement : Git, GitHub, Visual Studio Code, Adobe Creative Suite
-- Méthodes et pratiques : Agile, Scrum, Design Thinking, Responsive Design
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=m-u-c-k-a&show_icons=true&locale=en" alt="m-u-c-k-a" /></p>
