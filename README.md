@@ -1,21 +1,17 @@
 <h1 align="center">Hi 👋, I'm Hugo Delacour</h1>
-<h3 align="center">Un développeur frontend passionné originaire de France</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=m-u-c-k-a&label=Profile%20views&color=0e75b6&style=flat" alt="m-u-c-k-a" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=m-u-c-k-a" alt="m-u-c-k-a" /></a> </p>
+<h3 align="center">A passionate frontend developer from France.</h3>
 
 <p align="left"> <a href="https://twitter.com/mucka____" target="blank"><img src="https://img.shields.io/twitter/follow/mucka____?logo=twitter&style=for-the-badge" alt="mucka____" /></a> </p>
 
-- 🔭 Je suis actuellement étudiant [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)
+- 🔭 I am currently a student at [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)
 
-- 🌱 J'apprend actuellement **des Framework JS, l'UX design**
+- 🌱 I am currently learning **JS Frameworks and UX design.**
 
 - 👨‍💻 All of my projects are available at [https://hugodelacour.xyz](https://hugodelacour.xyz)
 
-- 📝 Je suis actif sur discord [𝑀𝑢𝑐𝑘𝑎#2080](𝑀𝑢𝑐𝑘𝑎#2080)
+- 📝 I am active on Discord as [𝑀𝑢𝑐𝑘𝑎#2080](𝑀𝑢𝑐𝑘𝑎#2080)
 
-- 📫 Comment me contacter **hugodelacour.pro@gmail.com**
+- 📫 Contact me at **hugodelacour.pro@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
