@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Hugo Delacour</h1>
 <h3 align="center">A passionate frontend developer from France.</h3>
 
-<p align="left"> <a href="https://twitter.com/mucka____" target="blank"><img src="https://img.shields.io/twitter/follow/mucka____?logo=twitter&style=for-the-badge" alt="mucka____" /></a> </p>
-
 - 🔭 I am currently a student at [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)
 
 - 🌱 I am currently learning **JS Frameworks and UX design.**
