@@ -25,7 +25,7 @@
 
 <div style="display: flex; width: 100%; justify-content: space-between;">
     <img src="https://github-readme-stats.vercel.app/api?username=M-U-C-K-A&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000" style="width: 46%; height: 100%; object-fit: cover;" />
-    <img src="https://streak-stats.demolab.com?user=M-U-C-K-A&theme=dark&locale=fr&date_format=j%20M%5B%20Y%5D&background=FFFFFF00&ring=399D72&fire=399D72&currStreakLabel=399D72" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=M-U-C-K-A&theme=dark&locale=fr&date_format=j%20M%5B%20Y%5D&background=FFFFFF00&ring=399D72&fire=399D72&currStreakLabel=399D72" alt="GitHub Streak" style="width: 50%; height: 100%; object-fit: cover;"  />
 </div>
 
 
