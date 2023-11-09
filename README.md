@@ -24,9 +24,10 @@
 [![](https://visitcount.itsvg.in/api?id=M-U-C-K-A&icon=0&color=12)](https://visitcount.itsvg.in)<br/>
 
 <div style="display: flex; width: 100%; justify-content: space-between;">
-    <img src="https://github-readme-stats.vercel.app/api?username=M-U-C-K-A&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true" style="width: 46%; height: 100%; object-fit: cover;" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=M-U-C-K-A&theme=vue-dark&hide_border=false" style="width: 51%; height: 100%; object-fit: cover;" />
+    <img src="https://github-readme-stats.vercel.app/api?username=M-U-C-K-A&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000" style="width: 55%; height: 100%; object-fit: cover;" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=M-U-C-K-A&theme=vue-dark&hide_border=false&layout=compact&bg_color=00000000" style="width: 44%; height: 100%; object-fit: cover;" />
 </div>
+
 
 
 ## 🏆 GitHub Trophies
