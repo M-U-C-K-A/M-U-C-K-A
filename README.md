@@ -3,8 +3,6 @@
 # 💫 About Me:
 - 🔭 I am currently a student at [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)<br>
 - 🌱 I am currently learning **JS Frameworks and UX design.**<br>
-- 👨‍💻 All of my projects are available at [https://hugodelacour.xyz](https://hugodelacour.xyz)<br>
-
 
 ## 🌐 Socials:
 
@@ -16,6 +14,7 @@
 <a href="https://pinterest.com/hugodelacourpro"><img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=Pinterest&logoColor=white" alt="Pinterest"></a>
 <a href="https://codepen.io/M-U-C-K-A"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen"></a>
 <a href="mailto:hugodelacour.pro@gmail.com"><img src="https://img.shields.io/badge/hugodelacour.pro@gmail.com-399D72?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://hugodelacour.xyz"><img src="https://img.shields.io/badge/Visit%20Portfolio-ff69b4?style=for-the-badge&logo=link&logoColor=white" alt="Portfolio"></a>
 </p>
 
 # 💻 Tech Stack:
