@@ -14,7 +14,7 @@
 <a href="https://pinterest.com/hugodelacourpro"><img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=Pinterest&logoColor=white" alt="Pinterest"></a>
 <a href="https://codepen.io/M-U-C-K-A"><img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="Codepen"></a>
 <a href="mailto:hugodelacour.pro@gmail.com"><img src="https://img.shields.io/badge/hugodelacour.pro@gmail.com-399D72?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://hugodelacour.xyz"><img src="https://img.shields.io/badge/Visit%20Portfolio-ff69b4?style=for-the-badge&logo=link&logoColor=white" alt="Portfolio"></a>
+<a href="https://hugodelacour.com"><img src="https://img.shields.io/badge/Visit%20Portfolio-ff69b4?style=for-the-badge&logo=link&logoColor=white" alt="Portfolio"></a>
 </p>
 
 # 💻 Tech Stack:
@@ -60,7 +60,7 @@
 
 
 # 📊 GitHub Stats:
-[![](https://visitcount.itsvg.in/api?id=M-U-C-K-A&icon=0&color=12)]([https://visitcount.itsvg.in](https://hugodelacour.xyz/))
+[![](https://visitcount.itsvg.in/api?id=M-U-C-K-A&icon=0&color=12)]([https://visitcount.itsvg.in](https://hugodelacour.com/))
 <div style="display: flex; width: 100%; justify-content: space-between;">
     <img src="https://github-readme-stats.vercel.app/api?username=M-U-C-K-A&theme=vue-dark&hide_border=false&include_all_commits=true&count_private=true&bg_color=00000000" style="width: 46%; height: 100%; object-fit: cover;" />
     <img src="https://streak-stats.demolab.com?user=M-U-C-K-A&theme=dark&locale=fr&date_format=j%20M%5B%20Y%5D&background=FFFFFF00&ring=399D72&fire=399D72&currStreakLabel=399D72" alt="GitHub Streak" style="width: 50%; height: 100%; object-fit: cover;"  />
