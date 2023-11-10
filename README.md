@@ -1,7 +1,5 @@
-<img src="https://github.com/M-U-C-K-A/M-U-C-K-A/assets/96072629/7c23137f-7c47-4f43-95a7-28f3affa4a37" style="align:center;">
-
-![dark](dark.png#gh-dark-mode-only)
-![light](light.png#gh-light-mode-only)
+![dark text](dark_text.png#gh-dark-mode-only)
+![light text](light_text.png#gh-light-mode-only)
 
 # 💫 About Me:
 - 🔭 I am currently a student at [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)<br>
@@ -76,3 +74,5 @@
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=M-U-C-K-A&theme=vue-dark&no-frame=true&no-bg=true&margin-w=4)
 
+![dark](dark.png#gh-dark-mode-only)
+![light](light.png#gh-light-mode-only)
