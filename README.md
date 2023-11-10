@@ -1,3 +1,5 @@
+![name](https://github.com/M-U-C-K-A/M-U-C-K-A/assets/96072629/7c23137f-7c47-4f43-95a7-28f3affa4a37)
+
 <h1 align="center">Hi 👋, I'm Hugo Delacour</h1>
 <h3 align="center">A passionate frontend developer from France.</h3>
 
