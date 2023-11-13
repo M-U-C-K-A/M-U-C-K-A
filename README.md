@@ -73,6 +73,3 @@
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=M-U-C-K-A&theme=vue-dark&no-frame=true&no-bg=true&margin-w=4)
-
-![dark](dark.png#gh-dark-mode-only)
-![light](light.png#gh-light-mode-only)
