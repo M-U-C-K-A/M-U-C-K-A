@@ -70,6 +70,3 @@
 <a href="https://github.com/M-U-C-K-A/github-readme-activity-graph">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=M-U-C-K-A&theme=dracula&bg_color=00000000&line=17332C&point=399D72&hide_border=true&custom_title=Activité&height=300" alt="M-U-C-K-A's github activity graph" style="width: 100%; border: 4.5px solid #000000; border-radius: 4.5px;">
 </a>
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=M-U-C-K-A&theme=vue-dark&no-frame=true&no-bg=true&margin-w=4)
