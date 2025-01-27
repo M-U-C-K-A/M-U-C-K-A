@@ -2,8 +2,8 @@
 ![light text](light_text.png#gh-light-mode-only)
 
 # 💫 About Me:
-- 🔭 I am currently a student at [Elbeuf Institute of Technology](http://iutrouen.univ-rouen.fr/antenne-iut-d-elbeuf-279325.kjsp)<br>
-- 🌱 I am currently learning **JS Frameworks and UX design.**<br>
+- 🔭 I am currently a student at [42 school](https://42.fr/en/homepage/)<br>
+- 🌱 I am currently learning **JS Frameworks & C & UX design.**<br>
 
 ## 🌐 Socials:
 
