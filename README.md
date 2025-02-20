@@ -67,6 +67,8 @@
     <img src="https://streak-stats.demolab.com?user=M-U-C-K-A&theme=dark&locale=fr&date_format=j%20M%5B%20Y%5D&background=FFFFFF00&ring=399D72&fire=399D72&currStreakLabel=399D72" alt="GitHub Streak" style="width: 50%; height: 100%; object-fit: cover;"  />
 </div>
 
-<a href="https://github.com/M-U-C-K-A/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=M-U-C-K-A&theme=dracula&bg_color=00000000&line=17332C&point=399D72&hide_border=true&custom_title=Activité&height=300" alt="M-U-C-K-A's github activity graph" style="width: 100%; border: 4.5px solid #000000; border-radius: 4.5px;">
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/M-U-C-K-A/M-U-C-K-A/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/M-U-C-K-A/M-U-C-K-A/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/M-U-C-K-A/M-U-C-K-A/output/github-snake.svg" />
+</picture>
