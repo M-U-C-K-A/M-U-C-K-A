@@ -1,4 +1,5 @@
-// Isometric contribution skyline + stats, regenerated daily by GitHub Actions.
+// Isometric contribution skyline + stats, regenerated hourly by GitHub Actions.
+// Animations are one-shot (bars drop in once) so the image is static afterwards.
 //
 //   GITHUB_TOKEN=… node activity.mjs <login> <outDir>
 //
@@ -109,7 +110,7 @@ export function activity(themeName, S) {
   // Base slab
   const bx0 = -0.45, bx1 = 7.75, by0 = -nWeeks - 0.45, by1 = 0.45, bz = 0.28;
   const edge = ` stroke="${T.edge}" stroke-width="1" stroke-linejoin="round"`;
-  out.push(`<polygon points="${[[bx0, by0], [bx1, by0], [bx1, by1], [bx0, by1]].map(([x, y]) => pt(x + 0.6, y + 0.6, -0.6)).join(' ')}" fill="${T.shadow}" filter="url(#soft)"/>`);
+  out.push(`<polygon points="${[[bx0, by0], [bx1, by0], [bx1, by1], [bx0, by1]].map(([x, y]) => pt(x + 0.6, y + 0.6, -0.6)).join(' ')}" fill="${T.shadow}" opacity="0.8"/>`);
   out.push(poly([[bx0, by1, 0], [bx1, by1, 0], [bx1, by1, bz], [bx0, by1, bz]], T.base.left, edge));
   out.push(poly([[bx1, by0, 0], [bx1, by1, 0], [bx1, by1, bz], [bx1, by0, bz]], T.base.right, edge));
   out.push(poly([[bx0, by0, bz], [bx1, by0, bz], [bx1, by1, bz], [bx0, by1, bz]], T.base.top, edge));
@@ -144,12 +145,11 @@ export function activity(themeName, S) {
         poly([[X1, Y0, z0], [X1, Y1, z0], [X1, Y1, z1], [X1, Y0, z1]], right) +
         poly([[X0, Y0, z1], [X1, Y0, z1], [X1, Y1, z1], [X0, Y1, z1]], top);
       const delay = r(0.2 + w * 0.028 + d * 0.012);
-      const wave = r(w * 0.07 + d * 0.02);
-      out.push(`<g class="in" style="animation-delay:${delay}s"><g class="${lv < 0 ? '' : 'wave'}" style="animation-delay:${wave}s">${parts}</g></g>`);
+      out.push(`<g class="in" style="animation-delay:${delay}s">${parts}</g>`);
 
       if (w === nWeeks - 1 && d === lastDay) {
         const [tx, ty] = iso.p((X0 + X1) / 2, (Y0 + Y1) / 2, z1);
-        out.push(`<g transform="translate(${r(tx)} ${r(ty - 18)})"><circle class="ping" r="5" fill="${ACCENTS.emerald[1]}"/><circle r="4" fill="${ACCENTS.emerald[1]}"/><path d="M0 4V16" stroke="${ACCENTS.emerald[1]}" stroke-width="1.2"/></g>`);
+        out.push(`<g transform="translate(${r(tx)} ${r(ty - 18)})"><circle r="7" fill="${ACCENTS.emerald[1]}" opacity="0.25"/><circle r="4" fill="${ACCENTS.emerald[1]}"/><path d="M0 4V16" stroke="${ACCENTS.emerald[1]}" stroke-width="1.2"/></g>`);
       }
     }
   }
@@ -206,10 +206,6 @@ export function activity(themeName, S) {
   const style = `
 .in { animation: drop .7s cubic-bezier(.2,.8,.2,1) both; }
 @keyframes drop { from { opacity: 0; transform: translateY(-26px); } to { opacity: 1; transform: none; } }
-.wave { animation: wave 7s ease-in-out infinite; }
-@keyframes wave { 0%, 12%, 100% { transform: none; } 6% { transform: translateY(-5px); } }
-.ping { transform-box: fill-box; transform-origin: center; animation: ping 2s ease-out infinite; }
-@keyframes ping { from { transform: scale(1); opacity: .7; } to { transform: scale(3.2); opacity: 0; } }
 .grow { transform-box: fill-box; transform-origin: left; animation: grow 1.4s .4s cubic-bezier(.2,.8,.2,1) both; }
 @keyframes grow { from { transform: scaleX(0); } to { transform: none; } }`;
 
@@ -219,7 +215,7 @@ export function activity(themeName, S) {
     title: 'GitHub activity',
     desc: `${S.total} contributions in the last year, shown as an isometric skyline. Current streak ${S.current} days, longest streak ${S.longest} days. Top languages: ${S.languages.map((l) => `${l.name} ${l.pct.toFixed(1)}%`).join(', ')}.`,
     style,
-    defs: `<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="10"/></filter>`,
+    defs: '',
     body: out.join('\n') + '\n' + copy.join('\n'),
   });
 }

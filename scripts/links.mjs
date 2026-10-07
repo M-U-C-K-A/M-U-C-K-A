@@ -36,7 +36,7 @@ export function linkButton(link, themeName) {
     `<g transform="translate(${x} ${y}) scale(${size / 24})" color="${color}" fill="none">${ICONS[name].replaceAll('var(--cut)', C.cut)}</g>`;
 
   const body = `
-<rect x="4" y="12" width="${W - 8}" height="${H - 14}" rx="13" fill="${T.shadow}" filter="url(#soft)"/>
+<rect x="4" y="12" width="${W - 8}" height="${H - 14}" rx="13" fill="${T.shadow}" opacity="0.6"/>
 <rect x="1" y="8" width="${W - 2}" height="${H - 10}" rx="13" fill="${C.skirt}"/>
 <g class="cap">
   <rect x="1" y="1" width="${W - 2}" height="${H - 10}" rx="13" fill="${C.top}" stroke="${C.edge}"/>
@@ -56,8 +56,7 @@ export function linkButton(link, themeName) {
     title: link.label,
     desc: `${link.label} link button`,
     style,
-    defs: `<filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
-<linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${ACCENTS.violet[1]}"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>`,
+    defs: `<linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${ACCENTS.violet[1]}"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>`,
     body,
   });
 }

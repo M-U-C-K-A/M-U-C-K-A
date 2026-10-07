@@ -7,7 +7,6 @@ const H = 480;
 export function hero(themeName) {
   const T = THEMES[themeName];
   const dark = themeName === 'dark';
-  const iso = makeIso(40, 930, 178);
   const out = [];
 
   // ---------- Left column: copy -------------------------------------------
@@ -37,7 +36,34 @@ export function hero(themeName) {
   }
   out.push(`</g>`);
 
-  // ---------- Right column: isometric scene -------------------------------
+  const sc = scene(themeName, makeIso(40, 930, 178));
+  out.push(`<g class="scene">${sc.body}</g>`);
+
+  const style = `${sc.style}
+.pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
+@keyframes pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(3); opacity: 0; } }
+.copy { animation: in .9s cubic-bezier(.2,.7,.2,1) both; }
+.scene { animation: in 1.1s .15s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }`;
+  const defs = sc.defs;
+
+  return svgDoc({
+    width: W,
+    height: H,
+    title: 'Hugo Delacour — Web developer',
+    desc: 'Hugo Delacour, web developer from France (BUT MMI, then 42), focused on UI/UX, accessibility and SEO. An animated isometric illustration shows an exploded stack of interface layers above a database.',
+    style,
+    defs,
+    body: out.join('\n'),
+  });
+}
+
+// The isometric illustration (also reused by the LinkedIn banner).
+// Blur filters are avoided on purpose: animated SVG images are re-rasterised
+// every frame, and filters make that expensive.
+export function scene(themeName, iso, { still = false } = {}) {
+  const T = THEMES[themeName];
+  const dark = themeName === 'dark';
   const g = [];
 
   // Soft ground shadow + base slab with a faint grid.
@@ -50,7 +76,7 @@ export function hero(themeName) {
   }
 
   // Shadow cast by the floating stack onto the slab.
-  g.push(`<g class="shadow">${quad(iso, { x: 0.9, y: 1.4, z: base.h, w: 3.4, d: 2.8 }, `fill="${T.shadow}" filter="url(#blur)"`)}</g>`);
+  g.push(quad(iso, { x: 1.05, y: 1.55, z: base.h, w: 3.1, d: 2.5 }, `fill="${T.shadow}" opacity="0.7"`));
 
   // Exploded UI layers: wireframe → components → motion/glass.
   const P = { x: 0.9, y: 1.4, w: 3.4, d: 2.8, h: 0.1 };
@@ -100,7 +126,7 @@ export function hero(themeName) {
       parts.push(`<path transform="${iso.topMatrix(P.x, P.y, top)}" d="M0.35 2.35 C 1.2 2.35, 1.3 0.45, 3.05 0.45" stroke="#ffffff" stroke-width="0.05" stroke-linecap="round" fill="none" opacity="0.95"/>`);
       parts.push(`<circle transform="${iso.topMatrix(P.x, P.y, top)}" cx="0.35" cy="2.35" r="0.09" fill="#ffffff"/>`);
       parts.push(`<circle transform="${iso.topMatrix(P.x, P.y, top)}" cx="3.05" cy="0.45" r="0.09" fill="#ffffff"/>`);
-      parts.push(`<g transform="${iso.topMatrix(P.x, P.y, top)}"><circle r="0.13" fill="#ffffff"><animateMotion dur="3.6s" repeatCount="indefinite" keyPoints="0;1;1;0;0" keyTimes="0;0.4;0.5;0.9;1" calcMode="linear" path="M0.35 2.35 C 1.2 2.35, 1.3 0.45, 3.05 0.45"/></circle></g>`);
+      if (!still) parts.push(`<g transform="${iso.topMatrix(P.x, P.y, top)}"><circle r="0.13" fill="#ffffff"><animateMotion dur="3.6s" repeatCount="indefinite" keyPoints="0;1;1;0;0" keyTimes="0;0.4;0.5;0.9;1" calcMode="linear" path="M0.35 2.35 C 1.2 2.35, 1.3 0.45, 3.05 0.45"/></circle></g>`);
     }
     g.push(`<g class="float f${i}">${parts.join('')}</g>`);
   });
@@ -115,7 +141,7 @@ export function hero(themeName) {
   const R = 0.72;
   const [dbx, dby] = iso.p(4.75, 4.7, base.h);
   const rx = R * Math.SQRT2 * Math.cos(Math.PI / 6) * iso.s, ry = R * Math.SQRT2 * 0.5 * iso.s;
-  g.push(`<ellipse cx="${r(dbx + 6)}" cy="${r(dby + 4)}" rx="${r(rx + 8)}" ry="${r(ry + 5)}" fill="${T.shadow}" filter="url(#blur)"/>`);
+  g.push(`<ellipse cx="${r(dbx + 6)}" cy="${r(dby + 4)}" rx="${r(rx + 8)}" ry="${r(ry + 5)}" fill="url(#dbshadow)"/>`);
   const disc = (z0, h, i) => {
     const yb = dby - z0 * iso.s, yt = yb - h * iso.s;
     return `<g class="disc d${i}">` +
@@ -130,30 +156,19 @@ export function hero(themeName) {
   g.push(`<g class="bob b1">${box(iso, { x: -0.4, y: 1.2, z: 3.9, w: 0.26, d: 0.26, h: 0.26 }, { top: ACCENTS.rose[0], left: ACCENTS.rose[1], right: ACCENTS.rose[2] })}</g>`);
   g.push(`<g class="bob b2">${box(iso, { x: 6.5, y: 4.4, z: 1.9, w: 0.22, d: 0.22, h: 0.22 }, { top: ACCENTS.violet[0], left: ACCENTS.violet[1], right: ACCENTS.violet[2] })}</g>`);
 
-  out.push(`<g class="scene">${g.join('\n')}</g>`);
 
   const style = `
 .float { animation: float 6s cubic-bezier(.45,0,.55,1) infinite; }
 .f0 { animation-delay: -0s; } .f1 { animation-delay: -0.6s; } .f2 { animation-delay: -1.2s; }
 @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
-.shadow { animation: shadow 6s cubic-bezier(.45,0,.55,1) infinite; }
-@keyframes shadow { 0%,100% { opacity: 1; } 50% { opacity: .7; } }
 .bob { animation: bob 4.5s cubic-bezier(.45,0,.55,1) infinite; }
 .b2 { animation-duration: 5.5s; animation-delay: -2s; } .b3 { animation-duration: 7s; animation-delay: -1s; }
 @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
-.disc { animation: disc 5s cubic-bezier(.45,0,.55,1) infinite; }
-.d1 { animation-name: disc1; } .d2 { animation-name: disc2; }
-@keyframes disc { 0%,100% { transform: none; } }
+.d1 { animation: disc1 5s cubic-bezier(.45,0,.55,1) infinite; } .d2 { animation: disc2 5s cubic-bezier(.45,0,.55,1) infinite; }
 @keyframes disc1 { 0%,100% { transform: none; } 50% { transform: translateY(-4px); } }
-@keyframes disc2 { 0%,100% { transform: none; } 50% { transform: translateY(-9px); } }
-.pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-out infinite; }
-@keyframes pulse { 0% { transform: scale(1); opacity: .6; } 100% { transform: scale(3); opacity: 0; } }
-.copy { animation: in .9s cubic-bezier(.2,.7,.2,1) both; }
-.scene { animation: in 1.1s .15s cubic-bezier(.2,.7,.2,1) both; }
-@keyframes in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }`;
+@keyframes disc2 { 0%,100% { transform: none; } 50% { transform: translateY(-9px); } }`;
 
   const defs = `
-<filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
 <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
   <stop offset="0" stop-color="${ACCENTS.violet[0]}"/>
   <stop offset="0.55" stop-color="${ACCENTS.violet[1]}"/>
@@ -163,15 +178,8 @@ export function hero(themeName) {
   <stop offset="0" stop-color="${ACCENTS.emerald[1]}"/>
   <stop offset="0.5" stop-color="${mix(ACCENTS.emerald[1], ACCENTS.emerald[2], 0.45)}"/>
   <stop offset="1" stop-color="${ACCENTS.emerald[2]}"/>
-</linearGradient>`;
+</linearGradient>
+<radialGradient id="dbshadow"><stop offset="0.4" stop-color="${T.shadow}"/><stop offset="1" stop-color="${T.shadow}" stop-opacity="0"/></radialGradient>`;
 
-  return svgDoc({
-    width: W,
-    height: H,
-    title: 'Hugo Delacour — Web developer',
-    desc: 'Hugo Delacour, web developer from France (BUT MMI, then 42), focused on UI/UX, accessibility and SEO. An animated isometric illustration shows an exploded stack of interface layers above a database.',
-    style,
-    defs,
-    body: out.join('\n'),
-  });
+  return { body: g.join('\n'), style, defs };
 }

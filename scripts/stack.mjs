@@ -117,7 +117,7 @@ export function stack(themeName) {
   // ---- Case -------------------------------------------------------------
   const cx0 = -0.32, cx1 = 4.32, cy0 = -14.32, cy1 = 0.32;
   const cs = ` stroke="${CASE.edge}" stroke-width="1" stroke-linejoin="round"`;
-  out.push(`<polygon points="${[[cx0, cy0, 0], [cx1, cy0, 0], [cx1, cy1, 0], [cx0, cy1, 0]].map((v) => pt(v[0] + 0.25, v[1] + 0.25, -0.35)).join(' ')}" fill="${T.shadow}" filter="url(#soft)"/>`);
+  out.push(`<polygon points="${[[cx0, cy0, 0], [cx1, cy0, 0], [cx1, cy1, 0], [cx0, cy1, 0]].map((v) => pt(v[0] + 0.25, v[1] + 0.25, -0.35)).join(' ')}" fill="${T.shadow}" opacity="0.8"/>`);
   out.push(poly([[cx0, cy1, 0], [cx1, cy1, 0], [cx1, cy1, Z0], [cx0, cy1, Z0]], CASE.left, cs));
   out.push(poly([[cx1, cy0, 0], [cx1, cy1, 0], [cx1, cy1, Z0], [cx1, cy0, Z0]], CASE.right, cs));
   out.push(poly([[cx0, cy0, Z0], [cx1, cy0, Z0], [cx1, cy1, Z0], [cx0, cy1, Z0]], CASE.top, cs));
@@ -238,12 +238,13 @@ export function stack(themeName) {
     .join('\n');
 
   const style = `
-.key { animation: press ${r(CYCLE)}s infinite; }
-@keyframes press { 0% { transform: none; } ${pct(0.08)} { transform: translateY(3.5px); } ${pct(0.32)} { transform: translateY(3.5px); } ${pct(0.5)}, 100% { transform: none; } }
-.fl { opacity: 0; animation: flash ${r(CYCLE)}s infinite; }
-@keyframes flash { 0% { opacity: 0; } ${pct(0.06)} { opacity: 1; } ${pct(0.7)} { opacity: 1; } ${pct(1.6)}, 100% { opacity: 0; } }
-.cap { opacity: 0; animation: cap ${r(CYCLE)}s infinite; }
-@keyframes cap { 0% { opacity: 0; } ${pct(0.02)} { opacity: 1; } ${pct(STEP - 0.04)} { opacity: 1; } ${pct(STEP)}, 100% { opacity: 0; } }
+.key, .fl, .cap { animation-timing-function: steps(1, end); animation-duration: ${r(CYCLE)}s; animation-iteration-count: infinite; }
+.key { animation-name: press; }
+@keyframes press { 0% { transform: translateY(3.5px); } ${pct(0.28)}, 100% { transform: none; } }
+.fl { opacity: 0; animation-name: flash; }
+@keyframes flash { 0% { opacity: 1; } ${pct(0.75)}, 100% { opacity: 0; } }
+.cap { opacity: 0; animation-name: cap; }
+@keyframes cap { 0% { opacity: 1; } ${pct(STEP)}, 100% { opacity: 0; } }
 .caret { animation: caret ${r(CYCLE)}s steps(1) 0.6s infinite, blink 1s steps(1) infinite; }
 @keyframes caret { ${caretFrames} }
 @keyframes blink { 50% { opacity: 0; } }
@@ -251,7 +252,7 @@ export function stack(themeName) {
 .board { animation: rise 1s cubic-bezier(.2,.7,.2,1) both; }
 @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }`;
 
-  const defs = `<filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="10"/></filter>${symbols}${caps.defs()}`;
+  const defs = `${symbols}${caps.defs()}`;
 
   return svgDoc({
     width: W,
