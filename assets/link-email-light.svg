@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="66" viewBox="0 0 220 66" fill="none" role="img" aria-labelledby="t d">
+<title id="t">Email</title>
+<desc id="d">Email link button</desc>
+<style>
+.cap { animation: press 7s 1.7s infinite; }
+@keyframes press { 0%, 6%, 100% { transform: none; } 2%, 3.5% { transform: translateY(5px); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; } }</style>
+<defs><filter id="soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4"/></filter>
+<linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+
+<rect x="4" y="12" width="212" height="52" rx="13" fill="rgba(31,35,40,0.12)" filter="url(#soft)"/>
+<rect x="1" y="8" width="218" height="56" rx="13" fill="#d0d7de"/>
+<g class="cap">
+  <rect x="1" y="1" width="218" height="56" rx="13" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="14" y="2" width="192" height="1" rx="0.5" fill="#ffffff" opacity="0"/>
+  <g transform="translate(22 16) scale(1)" color="#1f2328" fill="none"><rect x="2.5" y="4.5" width="19" height="15" rx="3" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"/></g>
+  <path d="M68.19 35.5L59.44 35.5L59.44 22.72L68.04 22.72L68.04 24.75L61.78 24.75L61.78 28.08L67.83 28.08L67.83 30.1L61.78 30.1L61.78 33.47L68.19 33.47L68.19 35.5M72.43 35.5L70.13 35.5L70.13 25.89L72.22 25.89L72.27 27.49Q72.63 26.63 73.32 26.15Q74.02 25.67 74.92 25.67L74.92 25.67Q75.98 25.67 76.69 26.19Q77.4 26.72 77.71 27.65L77.71 27.65Q78.03 26.68 78.74 26.18Q79.45 25.67 80.46 25.67L80.46 25.67Q81.96 25.67 82.81 26.61Q83.67 27.54 83.67 29.33L83.67 29.33L83.67 35.5L81.36 35.5L81.36 29.92Q81.36 27.54 79.72 27.54L79.72 27.54Q78.9 27.54 78.43 28.18Q77.96 28.82 77.96 29.99L77.96 29.99L77.96 35.5L75.82 35.5L75.82 29.99Q75.82 28.82 75.46 28.18Q75.1 27.54 74.22 27.54L74.22 27.54Q73.39 27.54 72.91 28.19Q72.43 28.84 72.43 29.99L72.43 29.99L72.43 35.5M88.56 35.72L88.56 35.72Q87.05 35.72 86.13 35.03Q85.21 34.35 85.21 33.09L85.21 33.09Q85.21 31.85 85.99 31.14Q86.76 30.44 88.34 30.14L88.34 30.14L91.53 29.51Q91.53 27.45 89.68 27.45L89.68 27.45Q88.85 27.45 88.36 27.84Q87.88 28.23 87.71 28.95L87.71 28.95L85.37 28.84Q85.66 27.33 86.78 26.5Q87.89 25.67 89.68 25.67L89.68 25.67Q91.73 25.67 92.78 26.71Q93.83 27.74 93.83 29.67L93.83 29.67L93.83 33.16Q93.83 33.54 93.97 33.68Q94.1 33.83 94.37 33.83L94.37 33.83L94.68 33.83L94.68 35.5Q94.37 35.57 93.83 35.57L93.83 35.57Q93.06 35.57 92.52 35.25Q91.98 34.92 91.84 34.04L91.84 34.04L91.84 34.02Q91.48 34.78 90.6 35.25Q89.73 35.72 88.56 35.72M89.03 34.04L89.03 34.04Q90.18 34.04 90.85 33.38Q91.53 32.71 91.53 31.61L91.53 31.61L91.53 31.07L89.05 31.58Q88.27 31.74 87.94 32.05Q87.61 32.37 87.61 32.87L87.61 32.87Q87.61 34.04 89.03 34.04M98.17 35.5L95.87 35.5L95.87 25.89L98.17 25.89L98.17 35.5M98.22 24.61L95.83 24.61L95.83 22.56L98.22 22.56L98.22 24.61M104.11 35.5L102.69 35.5Q101.62 35.5 101 34.96Q100.38 34.42 100.38 33.23L100.38 33.23L100.38 22.72L102.69 22.72L102.69 33Q102.69 33.72 103.41 33.72L103.41 33.72L104.11 33.72L104.11 35.5" fill="#1f2328"/>
+  <g transform="translate(180 19) scale(0.75)" color="#656d76" fill="none"><path d="M7 17L17 7M9 7h8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></g>
+</g>
+</svg>

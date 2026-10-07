@@ -1,0 +1,48 @@
+name: Profile activity
+
+on:
+  schedule:
+    - cron: "17 * * * *" # every hour
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: scripts/package-lock.json
+
+      - name: Install
+        working-directory: scripts
+        run: npm ci
+
+      # Builds dist/activity-{dark,light}.svg from the GitHub GraphQL API.
+      - name: Generate isometric activity
+        working-directory: scripts
+        run: node activity.mjs ${{ github.repository_owner }} ../dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          commit_message: "Update activity [skip ci]"
+          # Keep a single commit on the branch instead of one per run.
+          force_orphan: true
