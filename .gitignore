@@ -1,3 +1,9 @@
 node_modules/
 dist/
 .DS_Store
+
+# Personal branding work (avatar, banner): kept local, never published
+brand/
+scripts/brand.mjs
+scripts/fonts/InterTight-Medium.woff
+scripts/fonts/OFL-InterTight.txt

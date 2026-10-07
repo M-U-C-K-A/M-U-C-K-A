@@ -136,7 +136,7 @@ export function quad(iso, { x, y, z = 0, w, d }, attrs) {
 // ---------------------------------------------------------------------------
 const fontCache = {};
 export function font(name) {
-  const files = { sans: 'Geist-SemiBold.ttf', regular: 'Geist-Regular.ttf', mono: 'GeistMono-Medium.ttf' };
+  const files = { sans: 'Geist-SemiBold.ttf', regular: 'Geist-Regular.ttf', mono: 'GeistMono-Medium.ttf', tight: 'InterTight-Medium.woff' };
   if (!fontCache[name]) {
     const buf = fs.readFileSync(path.join(here, '..', 'fonts', files[name]));
     fontCache[name] = opentype.parse(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength));
